@@ -1,0 +1,28 @@
+package capgemini;
+
+import java.util.Scanner;
+
+public class Questao2 {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);	
+		
+		int count = 0;
+		
+		System.out.print("Digite uma senha! ");
+		String senha = entrada.next();
+		
+		while(senha != "senha123") {			
+		}
+		
+		System.out.println("Acesso permitido!");
+		
+		entrada.close();
+		
+		
+
+
+	}
+
+}

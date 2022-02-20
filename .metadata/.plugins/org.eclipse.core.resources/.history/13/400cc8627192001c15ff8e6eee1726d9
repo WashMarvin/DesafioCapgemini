@@ -1,0 +1,29 @@
+package capgemini;
+
+import java.util.Scanner;
+
+public class Questao1 {
+
+	public static void main(String[] args) {
+		
+		int n;
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Digite o valor de n: ");
+		n = entrada.nextInt();
+		
+		for (int i = 1; i <= n; i++) {
+			for (int j = 1; j <= n; j++) {
+				System.out.print("*");
+			}
+			System.out.println("\n");
+		}
+
+		
+		
+
+		
+
+
+	}
+
+}
